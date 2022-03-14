@@ -1,9 +1,13 @@
 <template>
-  <div>Página del home</div>
+  <div><Form /></div>
 </template>
 
 <script>
+import Form from "../components/Form.vue";
 export default {
   name: "Home",
+  components: {
+    Form,
+  },
 };
 </script>
